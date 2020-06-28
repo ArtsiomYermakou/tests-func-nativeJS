@@ -69,7 +69,7 @@ test("test city should contains 3 houses", () => {
 // 02. Заполние объект city, чтобы тесты ниже прошли
 test("test city should contains hospital and fire station", () => {
 
-    expect(city.houses.length).toBe(2);
+    expect(city.houses.length).toBe(3);
 
     expect(city.governmentBuildings[0].type).toBe("HOSPITAL");
     expect(city.governmentBuildings[0].budget).toBe(200000);
